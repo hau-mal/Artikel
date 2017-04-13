@@ -21,6 +21,17 @@ und sind in einem Azure Data Lake Store partitioniert über das Ingest Date abge
 ![JSON-HDInsight2](https://raw.githubusercontent.com/hau-mal/articles/master/images/JSON-HDInsight2.PNG)
 
 
+## Spark Jupyter Notebook
+Am einfachsten, lassen sich JSON-Dateien mit Spark lesen. Dies liegt darin, dass Spark JSON Dateien nativ unterstützt. Mittels read.json lassen sich JSON Daten lesen, es werden sogar automatisch die Partitionen erkannt:
+![JSON-HDInsight3](https://raw.githubusercontent.com/hau-mal/articles/master/images/JSON-HDInsight3.PNG)
+
+Die Notebooks liefern natürlich eine Menge weitere Funktionen. Hier wird beispielsweise ein Temperaturverlauf grafisch ausgegeben. Die Daten wurden vorher in einer Parquet-Tabelle gespeichert.
+
+![JSON-HDInsight4](https://raw.githubusercontent.com/hau-mal/articles/master/images/JSON-HDInsight4.PNG)
+
+Hier findest du das komplette [Notebook](https://raw.githubusercontent.com/hau-mal/BigData/master/ipynb/WeatherSQL.ipynb).
+
+
 
 ## Verarbeitung mit Hive
 
@@ -93,28 +104,6 @@ liefert folgendes Ergebnis:
 ![JSON-HDInsight5](https://raw.githubusercontent.com/hau-mal/articles/master/images/JSON-HDInsight5.PNG)
 
 
-
-
-
-
-
-## Spark Jupyter Notebook
-
-Noch viel einfacher als mit Hive, lassen sich JSON-Dateien mit Spark lesen. Dies liegt darin, dass Spark JSON Dateien nativ unterstützt. Mittels read.json lassen sich JSON Daten lesen, es werden sogar automatisch die Partitionen erkannt:
-
-![JSON-HDInsight3](https://raw.githubusercontent.com/hau-mal/articles/master/images/JSON-HDInsight3.PNG)
-
-
-
-Die Notebooks lievern natürlich eine Menge weitere Funktionen. Hier wird der Temperaturverlauf grafisch ausgegeben. Die Daten wurden vorher in einer Parquet-Tabelle gespeichert.
-
-
-
-![JSON-HDInsight4](https://raw.githubusercontent.com/hau-mal/articles/master/images/JSON-HDInsight4.PNG)
-
-
-
-Hier findest du das komplette [Notebook](https://raw.githubusercontent.com/hau-mal/BigData/master/ipynb/WeatherSQL.ipynb).
 
 
 
