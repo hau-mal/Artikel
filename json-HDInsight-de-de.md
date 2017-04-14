@@ -1,6 +1,6 @@
 # JSON Dateien in HDInsight verarbeiten
 
-Ich werde häufige gefragt, wie man denn in HDInsight JSON Dateien verarbeiten kann. Es gibt mehrere Möglichkeiten, nachfolgended beschreibe ich, sowohl die Verarbeitung über Hive als auch über Spark.
+Ich werde häufige gefragt, wie man denn in HDInsight JSON Dateien verarbeiten kann. Es gibt mehrere Möglichkeiten, nachfolgend beschreibe ich, sowohl die Verarbeitung über Hive als auch über Spark.
 
 
 
